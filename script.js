@@ -1,5 +1,5 @@
-// ARRAY CONTAINING LIST OF PROPERTIES AS OBJECTS
-// *********************************************************************
+// ARRAY CONTAINING LIST OF PROPERTIES AS OBJECTS AND SAVED TO LOCALSTORAGE
+// ************************************************************************
 let properties = JSON.parse(localStorage.getItem("properties"))
   ? JSON.parse(localStorage.getItem("properties"))
   : [
