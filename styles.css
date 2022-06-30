@@ -115,8 +115,8 @@ select {
 }
 
 #footer {
-  height: 45vh;
-  margin-top: 50px;
+  height: fit-content;
+  margin-top: 35px;
 }
 
 h4,
@@ -129,4 +129,5 @@ h5 {
   flex-direction: column;
   width: 500px;
   gap: 10px;
+  height: fit-content;
 }
