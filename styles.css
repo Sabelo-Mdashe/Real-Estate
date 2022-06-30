@@ -71,7 +71,7 @@ h1 {
   flex-direction: column;
 }
 
-form {
+.formstyled {
   background-color: white;
   padding: 10px 30px 30px 30px;
   font-size: small;
@@ -115,6 +115,18 @@ select {
 }
 
 #footer {
-  height: 50vh;
+  height: 45vh;
   margin-top: 50px;
+}
+
+h4,
+h5 {
+  color: white;
+}
+
+.footerform {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
 }
